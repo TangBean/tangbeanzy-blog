@@ -2,32 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/%E6%B5%8B%E8%AF%952/</loc>
+    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/1-Java/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="us"
-                href="https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/us/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/"
-                />
+    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/2-big-data/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/%E6%B5%8B%E8%AF%951/</loc>
+    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/3-web3/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/%E6%B5%8B%E8%AF%951/%E6%96%87%E7%AB%A01/</loc>
+    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/4-rec-system/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/%E6%B5%8B%E8%AF%951/%E6%B5%8B%E8%AF%953/</loc>
+    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/5-architecture/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/%E6%B5%8B%E8%AF%951/%E6%B5%8B%E8%AF%953/%E6%96%87%E7%AB%A01/</loc>
+    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/6-business/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/%E6%B5%8B%E8%AF%952/%E6%96%87%E7%AB%A01/</loc>
+    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/7-algorithm/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/%E6%B5%8B%E8%AF%952/%E6%96%87%E7%AB%A01%E7%9A%84%E5%89%AF%E6%9C%AC/</loc>
+    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/8-self-talking/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/9-others/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/9-others/2022-11-06_Build-personal-blog-like-this/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/categories/</loc>
     <xhtml:link
@@ -41,7 +47,18 @@
                 href="https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/categories/"
                 />
   </url><url>
-    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/</loc>
+    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/</loc>
+    <lastmod>2022-11-03T09:04:17+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="us"
+                href="https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/us/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/"
+                />
   </url><url>
     <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/tags/</loc>
     <xhtml:link
