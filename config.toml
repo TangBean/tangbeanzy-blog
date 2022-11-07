@@ -31,12 +31,12 @@ enableGitInfo = true
 [[menu.after]]
   name = "Github"
   url = "https://github.com/TangBean"
-  weight = 10
+  weight = 20
 
 [[menu.after]]
   name = "语雀"
   url = "https://www.yuque.com/tangbean"
-  weight = 10
+  weight = 30
 
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.
