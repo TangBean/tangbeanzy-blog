@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/us/categories/</loc>
+    <loc>https://tangbeanzy.com/us/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/categories/"
+                href="https://tangbeanzy.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="us"
-                href="https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/us/categories/"
+                href="https://tangbeanzy.com/us/categories/"
                 />
   </url><url>
-    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/us/tags/</loc>
+    <loc>https://tangbeanzy.com/us/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/tags/"
+                href="https://tangbeanzy.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="us"
-                href="https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/us/tags/"
+                href="https://tangbeanzy.com/us/tags/"
                 />
   </url><url>
-    <loc>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/us/</loc>
+    <loc>https://tangbeanzy.com/us/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/"
+                href="https://tangbeanzy.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="us"
-                href="https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/us/"
+                href="https://tangbeanzy.com/us/"
                 />
   </url>
 </urlset>

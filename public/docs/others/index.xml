@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>未分类 on TangBean&#39;s Blog</title>
-    <link>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/others/</link>
-    <description>Recent content in 未分类 on TangBean&#39;s Blog</description>
+    <title>未分类 on 个人技术分享</title>
+    <link>https://tangbeanzy.com/docs/others/</link>
+    <description>Recent content in 未分类 on 个人技术分享</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 06 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/others/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tangbeanzy.com/docs/others/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>这个博客是如何搭建起来的？</title>
-      <link>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/others/2022-11-06_Build-personal-blog-like-this/</link>
+      <link>https://tangbeanzy.com/docs/others/2022-11-06_Build-personal-blog-like-this/</link>
       <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/others/2022-11-06_Build-personal-blog-like-this/</guid>
+      <guid>https://tangbeanzy.com/docs/others/2022-11-06_Build-personal-blog-like-this/</guid>
       <description>这个博客是如何搭建起来的？ #  Overview #  建站主要有以下几个流程，先是想好自己想选哪个云服务器厂商，国内的基本就是 阿里云、腾讯云 啥的，国外的像是 AWS 是不开放给个人注册使用的，想用得先整个营业执照，还是比较麻烦的。
 所以我选的是腾讯云，一是觉得它不算贵，而且近些年来也逐渐成熟。二是使用下来，赶脚腾讯云的配套文档 + 与微信小程序的配合，使用体验确实不错，很少会用一边用一边吐槽这破玩意咋这么难用的时候。</description>
     </item>

@@ -1,6 +1,6 @@
-baseURL = 'https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/'
+baseURL = 'https://tangbeanzy.com/'
 languageCode = 'zh-cn'
-title = "TangBean's Blog"
+title = "个人技术分享"
 theme =  'hugo-book'
 
 # Book configuration

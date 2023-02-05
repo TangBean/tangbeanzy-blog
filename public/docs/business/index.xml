@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>业务知识 on TangBean&#39;s Blog</title>
-    <link>https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/business/</link>
-    <description>Recent content in 业务知识 on TangBean&#39;s Blog</description>
+    <title>业务知识 on 个人技术分享</title>
+    <link>https://tangbeanzy.com/docs/business/</link>
+    <description>Recent content in 业务知识 on 个人技术分享</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 06 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tangbeanzy-blog-9gvbj6bf727d61bf-1309560721.tcloudbaseapp.com/docs/business/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tangbeanzy.com/docs/business/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
