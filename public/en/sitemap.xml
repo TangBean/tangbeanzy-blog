@@ -2,32 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tangbeanzy.com/docs/Java/</loc>
-    <lastmod>2022-11-07T22:20:48+08:00</lastmod>
+    <loc>https://tangbeanzy.com/docs/codes/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tangbeanzy.com/docs/big-data/</loc>
-    <lastmod>2022-11-07T22:20:48+08:00</lastmod>
+    <loc>https://tangbeanzy.com/docs/game-dev/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tangbeanzy.com/docs/web3/</loc>
-    <lastmod>2022-11-07T22:20:48+08:00</lastmod>
-  </url><url>
-    <loc>https://tangbeanzy.com/docs/rec-system/</loc>
-    <lastmod>2022-11-07T22:20:48+08:00</lastmod>
-  </url><url>
-    <loc>https://tangbeanzy.com/docs/architecture/</loc>
-    <lastmod>2022-11-07T22:20:48+08:00</lastmod>
-  </url><url>
-    <loc>https://tangbeanzy.com/docs/business/</loc>
-    <lastmod>2022-11-07T22:20:48+08:00</lastmod>
-  </url><url>
-    <loc>https://tangbeanzy.com/docs/algorithm/</loc>
-    <lastmod>2022-11-07T22:20:48+08:00</lastmod>
+    <loc>https://tangbeanzy.com/docs/AI/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tangbeanzy.com/docs/others/</loc>
     <lastmod>2022-11-07T22:20:48+08:00</lastmod>
   </url><url>
+    <loc>https://tangbeanzy.com/tags/2023-06/</loc>
+    <lastmod>2023-06-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tangbeanzy.com/posts/2023-06-22/</loc>
+    <lastmod>2023-06-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://tangbeanzy.com/categories/</loc>
-    <lastmod>2022-11-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="us"
@@ -39,8 +33,14 @@
                 href="https://tangbeanzy.com/categories/"
                 />
   </url><url>
+    <loc>https://tangbeanzy.com/categories/Daily-Log/</loc>
+    <lastmod>2023-06-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tangbeanzy.com/docs/</loc>
+    <lastmod>2023-06-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://tangbeanzy.com/tags/</loc>
-    <lastmod>2022-11-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="us"
@@ -52,26 +52,8 @@
                 href="https://tangbeanzy.com/tags/"
                 />
   </url><url>
-    <loc>https://tangbeanzy.com/tags/Test/</loc>
-    <lastmod>2022-11-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tangbeanzy.com/categories/Test/</loc>
-    <lastmod>2022-11-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tangbeanzy.com/posts/%E7%A2%8E%E7%A2%8E%E5%BF%B52/</loc>
-    <lastmod>2022-11-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tangbeanzy.com/docs/</loc>
-    <lastmod>2022-11-07T22:20:48+08:00</lastmod>
-  </url><url>
-    <loc>https://tangbeanzy.com/posts/%E7%A2%8E%E7%A2%8E%E5%BF%B51/</loc>
-    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tangbeanzy.com/docs/others/2022-11-06_Build-personal-blog-like-this/</loc>
-    <lastmod>2022-11-07T22:20:48+08:00</lastmod>
-  </url><url>
-    <loc>https://tangbeanzy.com/posts/%E7%A2%8E%E7%A2%8E%E5%BF%B53/</loc>
-    <lastmod>2022-11-05T00:00:00+00:00</lastmod>
+    <loc>https://tangbeanzy.com/docs/others/20230621_time-management-by-ticktick/</loc>
+    <lastmod>2023-06-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tangbeanzy.com/</loc>
     <lastmod>2023-02-05T08:46:35+08:00</lastmod>

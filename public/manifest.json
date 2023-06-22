@@ -1,6 +1,6 @@
 {
-  "name": "个人技术分享",
-  "short_name": "个人技术分享",
+  "name": "TangBean 技术分享",
+  "short_name": "TangBean 技术分享",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

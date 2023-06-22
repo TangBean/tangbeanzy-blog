@@ -1,6 +1,6 @@
 baseURL = 'https://tangbeanzy.com/'
 languageCode = 'zh-cn'
-title = "个人技术分享"
+title = "TangBean 技术分享"
 theme =  'hugo-book'
 
 # Book configuration
@@ -27,16 +27,13 @@ enableGitInfo = true
  weight = 1
 
 [menu]
-# [[menu.before]]
-[[menu.after]]
-  name = "Github"
+
+# [[menu.after]]
+[[menu.before]]
+  name = "TangBean's Github"
   url = "https://github.com/TangBean"
   weight = 20
 
-[[menu.after]]
-  name = "语雀"
-  url = "https://www.yuque.com/tangbean"
-  weight = 30
 
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.

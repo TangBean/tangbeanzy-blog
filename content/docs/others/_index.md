@@ -1,12 +1,18 @@
 ---
-weight: 8
+weight: 4
 bookFlatSection: true
 bookCollapseSection: true
-title: "未分类"
+title: "非技术"
 date: 2022-11-06
 ---
 
-# 未分类
+# 非技术
 
 ## Contents
-- [这个博客是如何搭建起来的？]({{< relref "/docs/others/2022-11-06_Build-personal-blog-like-this.md" >}})
+
+### 时间管理
+
+- [2023-06-22 | 如何通过滴答清单管理你的项目们？](http://tangbeanzy.com/docs/others/20230621_time-management-by-ticktick/)
+
+
+

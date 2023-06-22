@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="今天终于抽出来时间好好整理了一下 Blog 的结构，打算后面每天在这里更新当天的进展，后续的计划和以及计划的完成情况。
+这个想法来自于《Doom启示录》，我非常崇拜的计算机图形学之神：约翰·卡马克。
+下面贴一段原文：
+[idsoftware.com] 登录名：johnc 真实姓名：约翰·卡马克 主目录：/raid/nardo/johnc 命令行解释器：/bin/csh
+计划：
+这是我的日常工作…… 当我完成一件事情的时候，我就给它标上星号；当我发现一个错误或是某个尚未实现的功能时，我也会把它记在这里，一些问题在被解决之前可能会被多次提到。我会不时地整理这个列表，并在我已经修正好的问题前标上一个加号。
+———— 约翰·卡马克
+二月十八日：
+* 调页错误
+* 拉伸控制台
+* 加快水中移动速度
+* 杀伤力的方向性
+* 盔甲颜色闪烁
+* 杀伤力足够大时的碎尸效果
+* 调整榴弹
+* 加亮玩家昵称
+* 钉枪造成的延迟
+* 一场游戏结束时服务器端异常终止
+&#43; 记分牌
+&#43; 可选的全尺寸
+&#43; 平视键
+&#43; 视频模式15时的异常
+&#43; 状态栏上的弹药图标
+&#43; 程序出错时允许“重启”
+&#43; 重生时的血迹残影？
+&#43; 火箭弹数量有时会出现负值
+&#43; 玩家携带宝物时的发光效果
+作战室里依然硝烟弥漫，卡马克觉得应该让玩家们知道，id真的是在Quake的道路上稳步前进着，于是他决定通过计划文件的方式来把他的工作日志发布到因特网上，计划文件原本只该用于开发者之间的互相沟通，而不是面向大众，但id迷们已经被罗梅洛早先的天花乱坠吊了太长时间的胃口，卡马克觉得，现在该给玩家们展示些过硬的数据了。
+我觉得这样很酷，也能让我更有干活的动力，打算模仿一下~">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="2023-06-22" />
+<meta property="og:description" content="今天终于抽出来时间好好整理了一下 Blog 的结构，打算后面每天在这里更新当天的进展，后续的计划和以及计划的完成情况。
+这个想法来自于《Doom启示录》，我非常崇拜的计算机图形学之神：约翰·卡马克。
+下面贴一段原文：
+[idsoftware.com] 登录名：johnc 真实姓名：约翰·卡马克 主目录：/raid/nardo/johnc 命令行解释器：/bin/csh
+计划：
+这是我的日常工作…… 当我完成一件事情的时候，我就给它标上星号；当我发现一个错误或是某个尚未实现的功能时，我也会把它记在这里，一些问题在被解决之前可能会被多次提到。我会不时地整理这个列表，并在我已经修正好的问题前标上一个加号。
+———— 约翰·卡马克
+二月十八日：
+* 调页错误
+* 拉伸控制台
+* 加快水中移动速度
+* 杀伤力的方向性
+* 盔甲颜色闪烁
+* 杀伤力足够大时的碎尸效果
+* 调整榴弹
+* 加亮玩家昵称
+* 钉枪造成的延迟
+* 一场游戏结束时服务器端异常终止
+&#43; 记分牌
+&#43; 可选的全尺寸
+&#43; 平视键
+&#43; 视频模式15时的异常
+&#43; 状态栏上的弹药图标
+&#43; 程序出错时允许“重启”
+&#43; 重生时的血迹残影？
+&#43; 火箭弹数量有时会出现负值
+&#43; 玩家携带宝物时的发光效果
+作战室里依然硝烟弥漫，卡马克觉得应该让玩家们知道，id真的是在Quake的道路上稳步前进着，于是他决定通过计划文件的方式来把他的工作日志发布到因特网上，计划文件原本只该用于开发者之间的互相沟通，而不是面向大众，但id迷们已经被罗梅洛早先的天花乱坠吊了太长时间的胃口，卡马克觉得，现在该给玩家们展示些过硬的数据了。
+我觉得这样很酷，也能让我更有干活的动力，打算模仿一下~" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://tangbeanzy.com/posts/2023-06-22/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-06-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-06-22T00:00:00+00:00" />
+<title>2023-06-22 | TangBean 技术分享</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.c58292d36b18b675680ab9baea2029204537b839ea72f258746ec0f32ce8d6c8.css" integrity="sha256-xYKS02sYtnVoCrm66iApIEU3uDnqcvJYdG7A8yzo1sg=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.78166b9d46e23e0ea915cb6887a30b633e7bc4fad10c8b6b9f6fa532271c19ba.js" integrity="sha256-eBZrnUbiPg6pFctoh6MLYz57xPrRDItrn2&#43;lMiccGbo=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>TangBean 技术分享</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        Chinese
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="https://tangbeanzy.com/us/">
+          English
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://github.com/TangBean" target="_blank" rel="noopener">
+        TangBean&#39;s Github
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-6167ef49f8a2b9b9a91f04a39c9212af" class="toggle"  />
+    <label for="section-6167ef49f8a2b9b9a91f04a39c9212af" class="flex justify-between">
+      <a href="/docs/codes/" class="">写代码</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-27867fc487340e0b6342c90fd810e538" class="toggle"  />
+    <label for="section-27867fc487340e0b6342c90fd810e538" class="flex justify-between">
+      <a href="/docs/game-dev/" class="">做游戏</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ccc9ecb813974ffce896085bcce576f7" class="toggle"  />
+    <label for="section-ccc9ecb813974ffce896085bcce576f7" class="flex justify-between">
+      <a href="/docs/AI/" class="">AI相关</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-9df867f1ccb076f4c1a4602e12169b93" class="toggle"  />
+    <label for="section-9df867f1ccb076f4c1a4602e12169b93" class="flex justify-between">
+      <a href="/docs/others/" class="">非技术</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/others/20230621_time-management-by-ticktick/" class="">如何通过滴答清单管理你的项目们？</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/posts/" >
+        豆豆日志
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>2023-06-22</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents"></nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown">
+  <h1>
+    <a href="/posts/2023-06-22/">2023-06-22</a>
+  </h1>
+  
+  <h5>June 22, 2023</h5>
+
+
+
+  
+  <div>
+    
+      <a href="/categories/Daily-Log/">Daily Log</a>
+  </div>
+  
+
+  
+  <div>
+    
+      <a href="/tags/2023-06/">2023-06</a>
+  </div>
+  
+
+
+
+<p>今天终于抽出来时间好好整理了一下 Blog 的结构，打算后面每天在这里更新当天的进展，后续的计划和以及计划的完成情况。</p>
+<p>这个想法来自于《Doom启示录》，我非常崇拜的计算机图形学之神：<strong>约翰·卡马克</strong>。</p>
+<p>下面贴一段原文：</p>
+<blockquote>
+<p>[idsoftware.com]
+登录名：johnc
+真实姓名：约翰·卡马克
+主目录：/raid/nardo/johnc
+命令行解释器：/bin/csh</p>
+<p>计划：</p>
+<p>这是我的日常工作…… 当我完成一件事情的时候，我就给它标上星号；当我发现一个错误或是某个尚未实现的功能时，我也会把它记在这里，一些问题在被解决之前可能会被多次提到。我会不时地整理这个列表，并在我已经修正好的问题前标上一个加号。</p>
+<p>———— 约翰·卡马克</p>
+<p>二月十八日：</p>
+<p>* 调页错误</p>
+<p>* 拉伸控制台</p>
+<p>* 加快水中移动速度</p>
+<p>* 杀伤力的方向性</p>
+<p>* 盔甲颜色闪烁</p>
+<p>* 杀伤力足够大时的碎尸效果</p>
+<p>* 调整榴弹</p>
+<p>* 加亮玩家昵称</p>
+<p>* 钉枪造成的延迟</p>
+<p>* 一场游戏结束时服务器端异常终止</p>
+<p>+ 记分牌</p>
+<p>+ 可选的全尺寸</p>
+<p>+ 平视键</p>
+<p>+ 视频模式15时的异常</p>
+<p>+ 状态栏上的弹药图标</p>
+<p>+ 程序出错时允许“重启”</p>
+<p>+ 重生时的血迹残影？</p>
+<p>+ 火箭弹数量有时会出现负值</p>
+<p>+ 玩家携带宝物时的发光效果</p>
+<p>作战室里依然硝烟弥漫，卡马克觉得应该让玩家们知道，id真的是在Quake的道路上稳步前进着，于是他决定通过计划文件的方式来把他的工作日志发布到因特网上，计划文件原本只该用于开发者之间的互相沟通，而不是面向大众，但id迷们已经被罗梅洛早先的天花乱坠吊了太长时间的胃口，卡马克觉得，现在该给玩家们展示些过硬的数据了。</p>
+</blockquote>
+<p>我觉得这样很酷，也能让我更有干活的动力，打算模仿一下~</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/TangBean/tangbeanzy-blog/edit/main/content/posts/2023-06-22.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents"></nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>个人技术分享</title>
+    <title>TangBean 技术分享</title>
     <link>https://tangbeanzy.com/us/</link>
-    <description>Recent content on 个人技术分享</description>
+    <description>Recent content on TangBean 技术分享</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language><atom:link href="https://tangbeanzy.com/us/index.xml" rel="self" type="application/rss+xml" />
+    <language>us</language><atom:link href="https://tangbeanzy.com/us/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

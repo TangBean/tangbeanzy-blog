@@ -1,11 +1,11 @@
 ---
-weight: 5
+weight: 3
 bookFlatSection: true
 bookCollapseSection: true
-title: "架构设计"
+title: "AI相关"
 date: 2022-11-06
 ---
 
-# 架构设计
+# AI相关
 
 ## Contents

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2023-06 on TangBean 技术分享</title>
+    <link>https://tangbeanzy.com/tags/2023-06/</link>
+    <description>Recent content in 2023-06 on TangBean 技术分享</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 22 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tangbeanzy.com/tags/2023-06/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023-06-22</title>
+      <link>https://tangbeanzy.com/posts/2023-06-22/</link>
+      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tangbeanzy.com/posts/2023-06-22/</guid>
+      <description>今天终于抽出来时间好好整理了一下 Blog 的结构，打算后面每天在这里更新当天的进展，后续的计划和以及计划的完成情况。
+这个想法来自于《Doom启示录》，我非常崇拜的计算机图形学之神：约翰·卡马克。
+下面贴一段原文：
+[idsoftware.com] 登录名：johnc 真实姓名：约翰·卡马克 主目录：/raid/nardo/johnc 命令行解释器：/bin/csh
+计划：
+这是我的日常工作…… 当我完成一件事情的时候，我就给它标上星号；当我发现一个错误或是某个尚未实现的功能时，我也会把它记在这里，一些问题在被解决之前可能会被多次提到。我会不时地整理这个列表，并在我已经修正好的问题前标上一个加号。
+———— 约翰·卡马克
+二月十八日：
+* 调页错误
+* 拉伸控制台
+* 加快水中移动速度
+* 杀伤力的方向性
+* 盔甲颜色闪烁
+* 杀伤力足够大时的碎尸效果
+* 调整榴弹
+* 加亮玩家昵称
+* 钉枪造成的延迟
+* 一场游戏结束时服务器端异常终止
++ 记分牌
++ 可选的全尺寸
++ 平视键
++ 视频模式15时的异常
++ 状态栏上的弹药图标
++ 程序出错时允许“重启”
++ 重生时的血迹残影？
++ 火箭弹数量有时会出现负值
++ 玩家携带宝物时的发光效果
+作战室里依然硝烟弥漫，卡马克觉得应该让玩家们知道，id真的是在Quake的道路上稳步前进着，于是他决定通过计划文件的方式来把他的工作日志发布到因特网上，计划文件原本只该用于开发者之间的互相沟通，而不是面向大众，但id迷们已经被罗梅洛早先的天花乱坠吊了太长时间的胃口，卡马克觉得，现在该给玩家们展示些过硬的数据了。
+我觉得这样很酷，也能让我更有干活的动力，打算模仿一下~</description>
+    </item>
+    
+  </channel>
+</rss>

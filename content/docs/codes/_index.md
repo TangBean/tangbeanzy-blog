@@ -1,11 +1,11 @@
 ---
-weight: 7
+weight: 1
 bookFlatSection: true
 bookCollapseSection: true
-title: "Leetcode"
+title: "写代码"
 date: 2022-11-06
 ---
 
-# 生命不息 刷题不止
+# 写代码
 
 ## Contents

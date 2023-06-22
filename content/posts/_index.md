@@ -1,7 +1,8 @@
 ---
 menu:
   after:
-    name: 博主碎碎念
+    name: 豆豆日志
     weight: 10
-title: 博主碎碎念
+title: 豆豆日志
 ---
+
