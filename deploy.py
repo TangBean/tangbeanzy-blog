@@ -6,7 +6,7 @@ today = datetime.now().strftime('%Y-%m-%d')
 commands = [
     'hugo -D',
     'git add ./',
-    f'git commit -m "{today}"',
+    f'git commit -m {today}',
     'git push origin main'
 ]
 
