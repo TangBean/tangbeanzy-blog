@@ -1,8 +1,8 @@
 ---
 menu:
   after:
-    name: 豆豆日志
+    name: Beanの日志
     weight: 10
-title: 豆豆日志
+title: Beanの日志
 ---
 
