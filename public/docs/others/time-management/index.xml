@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>时间管理 on TangBean 技术分享</title>
+    <link>https://tangbeanzy.com/docs/others/time-management/</link>
+    <description>Recent content in 时间管理 on TangBean 技术分享</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 22 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tangbeanzy.com/docs/others/time-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何通过滴答清单管理你的项目们？</title>
+      <link>https://tangbeanzy.com/docs/others/time-management/20230621_time-management-by-ticktick/</link>
+      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tangbeanzy.com/docs/others/time-management/20230621_time-management-by-ticktick/</guid>
+      <description>如何通过滴答清单管理你的项目们？#</description>
+    </item>
+    
+  </channel>
+</rss>
