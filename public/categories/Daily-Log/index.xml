@@ -13,7 +13,8 @@
       <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://tangbeanzy.com/posts/2023-06-23/</guid>
-      <description>&lt;p&gt;早上起来搞定了昨天的日志的列表部分不能截断的问题，通过 more 标签来标识需要截断的点，还蛮灵活的，不错不错~&lt;/p&gt;</description>
+      <description>&lt;p&gt;早上起来搞定了昨天的日志的列表部分不能截断的问题，通过 more 标签来标识需要截断的点，还蛮灵活的，不错不错~&lt;/p&gt;
+&lt;p&gt;博客 deploy 的过程有点复杂，写了个小 py 脚本解决，这回好多了。。。&lt;/p&gt;</description>
     </item>
     
     <item>
