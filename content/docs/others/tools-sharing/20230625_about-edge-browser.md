@@ -1,4 +1,5 @@
 ---
+weight: 1
 title: "关于 MS Edge 的一些很棒的功能"
 date: 2023-06-25
 ---
