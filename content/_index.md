@@ -9,7 +9,9 @@ type: docs
 
 My Github: https://github.com/TangBean
 
+## 自我介绍
 
+博客名字来源于我的 nick：豆豆，大概是因为我长得比较小小只，又很调皮捣蛋（想必大家都听过吃饭睡觉打豆豆的笑话），然后我姓 Tang，所以 `Tang_Bean`, `TangBean` 几乎是我在所以网站的 ID。本来想注册的域名是 `tangbean.com` 来着，但是这个域名已经被占掉了，只好在后面加上了名字首字母，就变成了 `tangbeanzy.com`，谐音 “糖豆子”，赶脚还有点萌哒哒的 :-)
 
 ## 板块介绍
 
