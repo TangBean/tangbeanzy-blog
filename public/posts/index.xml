@@ -7,6 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://tangbeanzy.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>2023-06-26</title>
+      <link>https://tangbeanzy.com/posts/2023-06-26/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tangbeanzy.com/posts/2023-06-26/</guid>
+      <description>今天 Side Job 专注时长 2h27m，还不错，但是熬夜到 12:25。
+Summary
+Today
+开发“地形图算法效果预览工具”，进度：模块划分，文件读写，能简单配置长宽高生成地图，但 algo 和 render 还不支持修改。 发现一个问题，地图过大不能全都画出来，内存会炸，现在画个 128x128 的还可以，但画 1024x1024 基本我的电脑就卡死了，需要调研下地图放大缩小的局部加载做法。 Tomorrow
+1.完成“地形图算法效果预览工具”基本功能开发，实现生成算法可模块化在 Unity 中切换；2.调研放大缩小地图加载卸载 Object 的实现方法。 </description>
+    </item>
+    
+    <item>
       <title>2023-06-24</title>
       <link>https://tangbeanzy.com/posts/2023-06-24/</link>
       <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
