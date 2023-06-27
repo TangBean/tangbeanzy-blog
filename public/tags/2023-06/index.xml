@@ -6,7 +6,19 @@
     <description>Recent content in 2023-06 on TangBean 技术分享</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tangbeanzy.com/tags/2023-06/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tangbeanzy.com/tags/2023-06/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023-06-27</title>
+      <link>https://tangbeanzy.com/posts/2023-06-27/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tangbeanzy.com/posts/2023-06-27/</guid>
+      <description>每天一过晚上 11 点就变得超级精神，写码热情高涨是什么神奇的毛病 =。=
+Summary#Focus time Bedtime 1h48m 0:58 Today
+实现生成高度数据的随机算法可模块化在Unity中配置。 给地图加上了颜色，找到了一个不错的色卡。 Tomorrow
+调研放大缩小地图加载卸载 Object 的实现方法，并开始实现。 把地图预览工具 push 到 YGT Github。 </description>
+    </item>
+    
     <item>
       <title>2023-06-26</title>
       <link>https://tangbeanzy.com/posts/2023-06-26/</link>
@@ -17,7 +29,7 @@
 Summary
 Today
 开发“地形图算法效果预览工具”，进度：模块划分，文件读写，能简单配置长宽高生成地图，但 algo 和 render 还不支持修改。 发现一个问题，地图过大不能全都画出来，内存会炸，现在画个 128x128 的还可以，但画 1024x1024 基本我的电脑就卡死了，需要调研下地图放大缩小的局部加载做法。 Tomorrow
-1.完成“地形图算法效果预览工具”基本功能开发，实现生成算法可模块化在 Unity 中切换；2.调研放大缩小地图加载卸载 Object 的实现方法。 </description>
+完成“地形图算法效果预览工具”基本功能开发，实现生成算法可模块化在 Unity 中切换；调研放大缩小地图加载卸载 Object 的实现方法。 </description>
     </item>
     
     <item>
