@@ -6,7 +6,22 @@
     <description>Recent content in 2023-06 on TangBean 技术分享</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tangbeanzy.com/tags/2023-06/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tangbeanzy.com/tags/2023-06/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023-06-29</title>
+      <link>https://tangbeanzy.com/posts/2023-06-29/</link>
+      <pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tangbeanzy.com/posts/2023-06-29/</guid>
+      <description>今天看到了一句关于 VR 未来的描述，感觉很有道理：
+相信总有一天，虛拟现实成为每个人都想要的东西，然后才会成为每个人都能负担得起的东西。
+还有一句鸡汤，深得我心，好像是来自《明朝那些事儿》的大结局吧，出处懒得去确认了 =。=
+成功只有一个 —— 按照自己的方式，去度过人生。
+Summary#Focus time Bedtime 2h32m Before 0:00 Today
+调研&amp;amp;实现通过鼠标调整地图的位置、缩放、旋转角度。 Tomorrow
+修个今天写的BUG：相机旋转之后再平移，会移动方向不对的问题。 </description>
+    </item>
+    
     <item>
       <title>2023-06-28</title>
       <link>https://tangbeanzy.com/posts/2023-06-28/</link>
