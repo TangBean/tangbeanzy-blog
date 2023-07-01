@@ -6,7 +6,19 @@
     <description>Recent content in Daily Log on TangBean 技术分享</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tangbeanzy.com/categories/Daily-Log/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tangbeanzy.com/categories/Daily-Log/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023-07-01</title>
+      <link>https://tangbeanzy.com/posts/2023-07-01/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tangbeanzy.com/posts/2023-07-01/</guid>
+      <description>下午看了一会 3D 数学基础知识，赶脚死去的高中数学知识在袭击我 =。=
+Summary#Focus time Bedtime 3h40m+ (有部分没计时) Before 0:00 Today
+修之前的 鼠标地图的位置、缩放、旋转角度 功能的 bug，以及做一些调整： 【Bug】旋转之后再移动地图，会移动方向错乱，比如像左拖动地图，但是地图向上移动 【Follow up】完善旋转地图功能 【Follow up】放大缩小地图，放大和缩小中心点，不应该是相机本身，应该是当前鼠标所在的位置 Tomorrow
+YGT 周会 &amp;amp; 做下周计划 调研多层地图和Game Object自动加卸载的实现 </description>
+    </item>
+    
     <item>
       <title>2023-06-29</title>
       <link>https://tangbeanzy.com/posts/2023-06-29/</link>
