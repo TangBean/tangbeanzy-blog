@@ -7,11 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://tangbeanzy.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>2023-08-06</title>
+      <link>https://tangbeanzy.com/posts/2023/08/2023-08-06/</link>
+      <pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tangbeanzy.com/posts/2023/08/2023-08-06/</guid>
+      <description>&lt;h2 id=&#34;0723-0804-早起群的一个小小复盘&#34;&gt;
+  0723-0804 早起群的一个小小复盘
+  &lt;a class=&#34;anchor&#34; href=&#34;#0723-0804-%e6%97%a9%e8%b5%b7%e7%be%a4%e7%9a%84%e4%b8%80%e4%b8%aa%e5%b0%8f%e5%b0%8f%e5%a4%8d%e7%9b%98&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;发现自己最近最大的问题：&lt;strong&gt;认知中的自己和现实中的自己产生了巨大偏差。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;上次目标&amp;amp;完成度&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不背单词复习 + 一组新词，目标：14 天完成 10 天
+&lt;ul&gt;
+&lt;li&gt;【10/14】勉强完成，但分布不太好，前 4 天没干，后面狂补。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;早起健身房跑步，目标：14 天完成 4 天
+&lt;ul&gt;
+&lt;li&gt;【0/14】最近非常极其嗜睡，早起性失眠彻底消失，经常可以轻松睡过 8:30，也不知道是好事情还是坏事情。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
       <title>2023-07-01</title>
-      <link>https://tangbeanzy.com/posts/2023-07-01/</link>
+      <link>https://tangbeanzy.com/posts/2023/07/2023-07-01/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://tangbeanzy.com/posts/2023-07-01/</guid>
+      <guid>https://tangbeanzy.com/posts/2023/07/2023-07-01/</guid>
       <description>下午看了一会 3D 数学基础知识，赶脚死去的高中数学知识在袭击我 =。=
 Summary#Focus time Bedtime 3h40m+ (有部分没计时) Before 0:00 Today
 修之前的 鼠标地图的位置、缩放、旋转角度 功能的 bug，以及做一些调整： 【Bug】旋转之后再移动地图，会移动方向错乱，比如像左拖动地图，但是地图向上移动 【Follow up】完善旋转地图功能 【Follow up】放大缩小地图，放大和缩小中心点，不应该是相机本身，应该是当前鼠标所在的位置 Tomorrow
@@ -20,10 +46,10 @@ YGT 周会 &amp;amp; 做下周计划 调研多层地图和Game Object自动加�
     
     <item>
       <title>2023-06-29</title>
-      <link>https://tangbeanzy.com/posts/2023-06-29/</link>
+      <link>https://tangbeanzy.com/posts/2023/06/2023-06-29/</link>
       <pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://tangbeanzy.com/posts/2023-06-29/</guid>
+      <guid>https://tangbeanzy.com/posts/2023/06/2023-06-29/</guid>
       <description>今天看到了一句关于 VR 未来的描述，感觉很有道理：
 相信总有一天，虛拟现实成为每个人都想要的东西，然后才会成为每个人都能负担得起的东西。
 还有一句鸡汤，深得我心，好像是来自《明朝那些事儿》的大结局吧，出处懒得去确认了 =。=
@@ -35,20 +61,20 @@ Summary#Focus time Bedtime 2h32m Before 0:00 Today
     
     <item>
       <title>2023-06-28</title>
-      <link>https://tangbeanzy.com/posts/2023-06-28/</link>
+      <link>https://tangbeanzy.com/posts/2023/06/2023-06-28/</link>
       <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://tangbeanzy.com/posts/2023-06-28/</guid>
+      <guid>https://tangbeanzy.com/posts/2023/06/2023-06-28/</guid>
       <description>再一次重读《Doom启示录》，还是很受到激励，什么时候才能拥有像卡神一样的专注力呢 =。=
 但写代码确实是一件，能让人忘记不开心事情的事情，可能因为它比较消耗 CPU、内存，让脑子没有其他的资源想些有的没的，然后就忘记不开心的事情了。</description>
     </item>
     
     <item>
       <title>2023-06-27</title>
-      <link>https://tangbeanzy.com/posts/2023-06-27/</link>
+      <link>https://tangbeanzy.com/posts/2023/06/2023-06-27/</link>
       <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://tangbeanzy.com/posts/2023-06-27/</guid>
+      <guid>https://tangbeanzy.com/posts/2023/06/2023-06-27/</guid>
       <description>每天一过晚上 11 点就变得超级精神，写码热情高涨是什么神奇的毛病 =。=
 Summary#Focus time Bedtime 1h48m 0:58 Today
 实现生成高度数据的随机算法可模块化在Unity中配置。 给地图加上了颜色，找到了一个不错的色卡。 Tomorrow
@@ -57,10 +83,10 @@ Summary#Focus time Bedtime 1h48m 0:58 Today
     
     <item>
       <title>2023-06-26</title>
-      <link>https://tangbeanzy.com/posts/2023-06-26/</link>
+      <link>https://tangbeanzy.com/posts/2023/06/2023-06-26/</link>
       <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://tangbeanzy.com/posts/2023-06-26/</guid>
+      <guid>https://tangbeanzy.com/posts/2023/06/2023-06-26/</guid>
       <description>今天 Side Job 专注时长 2h27m，还不错，但是熬夜到 12:25。
 Summary
 Today
@@ -70,30 +96,30 @@ Today
     
     <item>
       <title>2023-06-24</title>
-      <link>https://tangbeanzy.com/posts/2023-06-24/</link>
+      <link>https://tangbeanzy.com/posts/2023/06/2023-06-24/</link>
       <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://tangbeanzy.com/posts/2023-06-24/</guid>
+      <guid>https://tangbeanzy.com/posts/2023/06/2023-06-24/</guid>
       <description>今天有时间话，整理一下 Blog 的 Homepage。
 今天没时间，今天爆困，今天早早睡了。</description>
     </item>
     
     <item>
       <title>2023-06-23</title>
-      <link>https://tangbeanzy.com/posts/2023-06-23/</link>
+      <link>https://tangbeanzy.com/posts/2023/06/2023-06-23/</link>
       <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://tangbeanzy.com/posts/2023-06-23/</guid>
+      <guid>https://tangbeanzy.com/posts/2023/06/2023-06-23/</guid>
       <description>&lt;p&gt;早上起来搞定了昨天的日志的列表部分不能截断的问题，通过 more 标签来标识需要截断的点，还蛮灵活的，不错不错~&lt;/p&gt;
 &lt;p&gt;博客 deploy 的过程有点复杂，写了个小 py 脚本解决，这回好多了。。。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>2023-06-22</title>
-      <link>https://tangbeanzy.com/posts/2023-06-22/</link>
+      <link>https://tangbeanzy.com/posts/2023/06/2023-06-22/</link>
       <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://tangbeanzy.com/posts/2023-06-22/</guid>
+      <guid>https://tangbeanzy.com/posts/2023/06/2023-06-22/</guid>
       <description>&lt;p&gt;今天是端午节假期的第一天，早上起来吃了肉粽子！&lt;/p&gt;
 &lt;p&gt;今天终于抽出来时间好好整理了一下 Blog 的结构，打算后面每天在这里更新当天的进展，后续的计划和以及计划的完成情况。&lt;/p&gt;
 &lt;p&gt;这个想法来自于《Doom启示录》，我非常崇拜的计算机图形学之神：&lt;strong&gt;约翰·卡马克&lt;/strong&gt;。&lt;/p&gt;</description>

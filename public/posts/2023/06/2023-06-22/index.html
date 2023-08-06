@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="今天是端午节假期的第一天，早上起来吃了肉粽子！
+今天终于抽出来时间好好整理了一下 Blog 的结构，打算后面每天在这里更新当天的进展，后续的计划和以及计划的完成情况。
+这个想法来自于《Doom启示录》，我非常崇拜的计算机图形学之神：约翰·卡马克。">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="2023-06-22" />
+<meta property="og:description" content="今天是端午节假期的第一天，早上起来吃了肉粽子！
+今天终于抽出来时间好好整理了一下 Blog 的结构，打算后面每天在这里更新当天的进展，后续的计划和以及计划的完成情况。
+这个想法来自于《Doom启示录》，我非常崇拜的计算机图形学之神：约翰·卡马克。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://tangbeanzy.com/posts/2023/06/2023-06-22/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-06-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-08-06T15:23:52+08:00" />
+<title>2023-06-22 | TangBean 技术分享</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css" integrity="sha256-M6SPVDKXO4/5qCZ52eRdZ/LBXUOZvSgpJpRVz&#43;OQteg=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.ae9b7e86d364218deff08e7e6f09f69e160b125ac83e8d7af780b7afce4ee1e0.js" integrity="sha256-rpt&#43;htNkIY3v8I5&#43;bwn2nhYLElrIPo1694C3r85O4eA=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>TangBean 技术分享</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        Chinese
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="https://tangbeanzy.com/us/">
+          English
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://github.com/TangBean"  target="_blank" rel="noopener">
+        TangBean&#39;s Github
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-6167ef49f8a2b9b9a91f04a39c9212af" class="toggle"  />
+    <label for="section-6167ef49f8a2b9b9a91f04a39c9212af" class="flex justify-between">
+      <a href="/docs/codes/" class="">写代码</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-27867fc487340e0b6342c90fd810e538" class="toggle"  />
+    <label for="section-27867fc487340e0b6342c90fd810e538" class="flex justify-between">
+      <a href="/docs/game-dev/" class="">做游戏</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ccc9ecb813974ffce896085bcce576f7" class="toggle"  />
+    <label for="section-ccc9ecb813974ffce896085bcce576f7" class="flex justify-between">
+      <a href="/docs/AI/" class="">AI相关</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-9df867f1ccb076f4c1a4602e12169b93" class="toggle"  />
+    <label for="section-9df867f1ccb076f4c1a4602e12169b93" class="flex justify-between">
+      <a href="/docs/others/" class="">非技术</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/others/tools-sharing/" class="">工具分享</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/others/tools-sharing/20230625_about-edge-browser/" class="">关于 MS Edge 的一些很棒的功能</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/others/time-management/" class="">时间管理</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/others/time-management/20230621_time-management-by-ticktick/" class="">如何通过滴答清单管理你的项目们？</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/posts/"  >
+        Beanの日志
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>2023-06-22</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents"></nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown">
+  <h1>
+    <a href="/posts/2023/06/2023-06-22/">2023-06-22</a>
+  </h1>
+  
+  <h5>June 22, 2023</h5>
+
+
+
+  
+  <div>
+    
+      <a href="/categories/Daily-Log/">Daily Log</a>
+  </div>
+  
+
+  
+  <div>
+    
+      <a href="/tags/2023-06/">2023-06</a>
+  </div>
+  
+
+
+
+<p>今天是端午节假期的第一天，早上起来吃了肉粽子！</p>
+<p>今天终于抽出来时间好好整理了一下 Blog 的结构，打算后面每天在这里更新当天的进展，后续的计划和以及计划的完成情况。</p>
+<p>这个想法来自于《Doom启示录》，我非常崇拜的计算机图形学之神：<strong>约翰·卡马克</strong>。</p>
+<p>下面贴几段原文：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>[idsoftware.com]
+</span></span><span style="display:flex;"><span>登录名：johnc
+</span></span><span style="display:flex;"><span>真实姓名：约翰·卡马克
+</span></span><span style="display:flex;"><span>主目录：/raid/nardo/johnc
+</span></span><span style="display:flex;"><span>命令行解释器：/bin/csh
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>计划：
+</span></span><span style="display:flex;"><span>这是我的日常工作... 当我完成一件事情的时候，我就给它标上星号；当我发现一个错误或是某个尚未实现的
+</span></span><span style="display:flex;"><span>功能时，我也会把它记在这里，一些问题在被解决之前可能会被多次提到。我会不时地整理这个列表，并在我
+</span></span><span style="display:flex;"><span>已经修正好的问题前标上一个加号。
+</span></span><span style="display:flex;"><span>———— 约翰·卡马克
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>2.28:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">*</span> 调页错误
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">*</span> 拉伸控制台
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">*</span> 加快水中移动速度
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">*</span> 杀伤力的方向性
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">*</span> 盔甲颜色闪烁
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">*</span> 杀伤力足够大时的碎尸效果
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">*</span> 调整榴弹
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">*</span> 加亮玩家昵称
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">*</span> 钉枪造成的延迟
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">*</span> 一场游戏结束时服务器端异常终止
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>+ 记分牌
+</span></span><span style="display:flex;"><span>+ 可选的全尺寸
+</span></span><span style="display:flex;"><span>+ 平视键
+</span></span><span style="display:flex;"><span>+ 视频模式15时的异常
+</span></span><span style="display:flex;"><span>+ 状态栏上的弹药图标
+</span></span><span style="display:flex;"><span>+ 程序出错时允许“重启”
+</span></span><span style="display:flex;"><span>+ 重生时的血迹残影？
+</span></span><span style="display:flex;"><span>+ 火箭弹数量有时会出现负值
+</span></span><span style="display:flex;"><span>+ 玩家携带宝物时的发光效果
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>作战室里依然硝烟弥漫，卡马克觉得应该让玩家们知道，id真的是在Quake的道路上稳步前进着，于是他决定
+</span></span><span style="display:flex;"><span>通过计划文件的方式来把他的工作日志发布到因特网上，计划文件原本只该用于开发者之间的互相沟通，而不
+</span></span><span style="display:flex;"><span>是面向大众，但id迷们已经被罗梅洛早先的天花乱坠吊了太长时间的胃口，卡马克觉得，现在该给玩家们展示
+</span></span><span style="display:flex;"><span>些过硬的数据了。
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>姓名：约翰·卡马克
+</span></span><span style="display:flex;"><span>职务：程序员
+</span></span><span style="display:flex;"><span>项目：Quake2
+</span></span><span style="display:flex;"><span>最近更新：1998年2月4日 03:06:55 （美国中部标准时间）
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>嗯，我太长时间没有更新计划文件了。封闭研究进行得很顺利，在一个礼拜里，我除了买可乐外就没有出过旅店
+</span></span><span style="display:flex;"><span>的门，这简直太安逸了，因为办公室里的杂事已经让我有点无法忍受。以后，在项目不紧时，我很可能会经常做
+</span></span><span style="display:flex;"><span>这样的封闭式研究，每季度一次听起来比较合适。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>现在要具体谈论三次元引擎还为时过早，Quake在架构完全成型之前走了不少弯路（光树、门洞、等等），所以
+</span></span><span style="display:flex;"><span>我知道，现在研究的东西很可能会有变动，我不想说任何会被某些人当做是“承诺”的话。我只能说，工作的进展
+</span></span><span style="display:flex;"><span>很激动人心。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>许多游戏开发者从事这一行是为了制作出最终的游戏，中间漫长的开发阶段只是不得不经历的过程，我尊重他们
+</span></span><span style="display:flex;"><span>的工作态度，但我从事游戏开发的动机略有不同。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>当然，我也为游戏的完成而自豪，但这途中所克服的各种困难却更加让我铭记。我已记不清我们那些老游戏发布
+</span></span><span style="display:flex;"><span>时的情景，但我清楚地记得那些技术上的突破，早至《基恩》时的CRTC回绕，以实现平滑的卷轴效果（准确地
+</span></span><span style="display:flex;"><span>说，早至理解苹果2汇编语言中并联数组里的结构体...），知识是需要积累的，学习是需要循序渐进的。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>我的人生就是以知识的积累和学习的不断深入来分为不同阶段。我启蒙阶段用的是学校里的苹果2型机，但当时的
+</span></span><span style="display:flex;"><span>条件局限了我的学习速度和深度。今天的状况已经好多了，只要有一台便宜的二手PC机、一张Linux光盘和一个
+</span></span><span style="display:flex;"><span>因特网的账号，你就拥有了足够的工具和资源，你就可以达到任何你期望的编程境界。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>《软盘》的头六个月对我而言如同活在梦里，平生第一次，我身边有了比我更博识的程序员（罗梅洛和罗瑟），
+</span></span><span style="display:flex;"><span>我手边有了大量的书籍和资料，而且我可以全身心投入到编程中，那真是一段好时光。接下来的两年，直到Doom
+</span></span><span style="display:flex;"><span>和几个家用机版本移植完成，我在稳步提高着我的知识面和技术水平，其中包括：更深入的图像编程、网络、
+</span></span><span style="display:flex;"><span>Unix、编译原理、跨平台、RISC架构、等等。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Quake开发的第一年简直如同腾云驾雾，有迈克尔·亚伯拉什作为顾问，我尝试了大量新鲜课题。如果科班出身的
+</span></span><span style="display:flex;"><span>图像程序员们知道我在写Doom时有多业余，他们肯定会大吃一惊，那时的我甚至不能正确地剪切墙体多边形（这
+</span></span><span style="display:flex;"><span>就是为什么我用了那莫名其妙的极坐标系统），Quake逼着我踏上正轨，同时探索出新思路。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Quake开发的最后半年是在痛苦中度过的，那时我满脑子只想着把这该死的东西做完，当然，一切付出到后来都
+</span></span><span style="display:flex;"><span>有了回报，但我绝不怀恋这段时光。Quake2开发的过程中，我的学习经历又得到了进一步扩充：GLQuake、
+</span></span><span style="display:flex;"><span>quakeworld、radiosity、OpenGL工具开发、Win32编程、等等，与此同时，我也有了不少关于下一步如何
+</span></span><span style="display:flex;"><span>做的想法。我认为接下来三位元引擎的开发将和Quake一样硕果累累。我在一些课题上已经有了非常深入的理解，
+</span></span><span style="display:flex;"><span>我还正在尝试一些图像编程以外的全新领域，它们将会和我所有其他方面的工作产生积极互动。末了，自然也会
+</span></span><span style="display:flex;"><span>有一个精彩的游戏。:)
+</span></span></code></pre></div><p>我觉得这样很酷，也能让我更有干活的动力，打算模仿一下~</p>
+<hr>
+<p>好烦，折腾了好久博客的配置，中文的长度判断还是有问题的，搞得这个豆豆日志的列表部分，summary 特别长，但英文就没有问题，估计是根据单词数而非字符数做的长度判断吧。但也懒得找代码改了，就先这样吧 =。=</p></article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+  <div><a class="flex align-center" href="https://github.com/TangBean/tangbeanzy-blog/commit/9c6223a104dd7ce7a9d38b5769516a92acd3d8ef" title='Last modified by TangBean | August 6, 2023' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>August 6, 2023</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/TangBean/tangbeanzy-blog/edit/main/content/posts/2023/06/2023-06-22.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents"></nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
