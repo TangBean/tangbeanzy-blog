@@ -7,6 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://tangbeanzy.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Unity Project 文件类型介绍</title>
+      <link>https://tangbeanzy.com/docs/game-dev/Unity/20230902_use-git-in-unity-project/</link>
+      <pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tangbeanzy.com/docs/game-dev/Unity/20230902_use-git-in-unity-project/</guid>
+      <description>Unity Project 文件类型介绍#为什么要介绍这个，因为在把本地的 Unity 通过 Git 提交到 Remote 时，开始纠结哪些内容需要被提交到 Remote，然后发现我似乎不太知道 Unity 工程里的改动，都对应着哪些文件的变化，在 git add 的时候不太知道需要将哪些文件 add 进去。所以就有了这篇文章，介绍 Unity Project 中这些文件夹和文件都是用来放什么的、干什么的。
+开篇上重点，先给出最初问题的答案，所以最后需要被 push 到 remote 的文件有哪些？
+其中 Packages folder 只需要包含 manifest.json,packages-lock.json 这两个文件即可。 基本上必选文件就这些，其他有一些 optional 的可以根据需要加。
+打开一个 Unity 工程，ll -al一下，基本就能看见这些文件夹和文件，接下来我们会一一介绍它们。先介绍文件夹部分，再介绍文件部分。
+文件夹部分#Assets/#用途： 项目中所有游戏资源（脚本、模型、纹理、声音等）的存放地点。这是我们改动最频繁的文件夹，也是游戏的核心内容所在。 生命周期： 一直存在。你的工作就是疯狂往这个文件夹里填游戏内容，它没了你游戏也没了。 谁负责管理： 你自个儿。 版本控制： must be push to remote ！！！ 这个文件夹是核中核，core 中 core。 你打开这个文件夹，会发现这里面所有的文件夹、文件，都会有一个同名的 .meta 文件。就下面这样：
+folder1/folder1.metafile1.txtfile1.meta 这个文件是 Unity 给你创建的，是用来存储和这个文件相关的元数据的。一般会与它们所描述的文件或文件夹放在一起，并且它们的名字也会和相应的文件或文件夹名字一样，只是后缀为 .</description>
+    </item>
+    
+    <item>
       <title>关于 MS Edge 的一些很棒的功能</title>
       <link>https://tangbeanzy.com/docs/others/tools-sharing/20230625_about-edge-browser/</link>
       <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
@@ -22,38 +36,14 @@
     </item>
     
     <item>
-      <title>如何通过滴答清单管理你的项目们？</title>
-      <link>https://tangbeanzy.com/docs/others/time-management/20230621_time-management-by-ticktick/</link>
-      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+      <title>2023-09-03</title>
+      <link>https://tangbeanzy.com/posts/2023/09/2023-09-03/</link>
+      <pubDate>Sun, 03 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://tangbeanzy.com/docs/others/time-management/20230621_time-management-by-ticktick/</guid>
-      <description>如何通过滴答清单管理你的项目们？#</description>
-    </item>
-    
-    <item>
-      <title>2023-08-06</title>
-      <link>https://tangbeanzy.com/posts/2023/08/2023-08-06/</link>
-      <pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://tangbeanzy.com/posts/2023/08/2023-08-06/</guid>
-      <description>&lt;h2 id=&#34;0723-0804-早起群的一个小小复盘&#34;&gt;
-  0723-0804 早起群的一个小小复盘
-  &lt;a class=&#34;anchor&#34; href=&#34;#0723-0804-%e6%97%a9%e8%b5%b7%e7%be%a4%e7%9a%84%e4%b8%80%e4%b8%aa%e5%b0%8f%e5%b0%8f%e5%a4%8d%e7%9b%98&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;发现自己最近最大的问题：&lt;strong&gt;认知中的自己和现实中的自己产生了巨大偏差。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;上次目标&amp;amp;完成度&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;不背单词复习 + 一组新词，目标：14 天完成 10 天
-&lt;ul&gt;
-&lt;li&gt;【10/14】勉强完成，但分布不太好，前 4 天没干，后面狂补。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;早起健身房跑步，目标：14 天完成 4 天
-&lt;ul&gt;
-&lt;li&gt;【0/14】最近非常极其嗜睡，早起性失眠彻底消失，经常可以轻松睡过 8:30，也不知道是好事情还是坏事情。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <guid>https://tangbeanzy.com/posts/2023/09/2023-09-03/</guid>
+      <description>今天的重大发现！为什么我用家里的键盘会左手腕疼，但是在公司就不会。
+因为家里用的是一把 84 键的键盘，公司用的是一把标准 87 键的键盘。两个键盘也是搭配的适合各自长度的键盘腕托。然后发现，让手腕感受到舒服的长度可能就正好卡在了 32cm - 36cm 之间，32cm 正好短了些，如果想保持手腕在腕托上，但手要去做一些操作，就需要横着向外弯曲自己的手腕，长时间做这个动作，手腕就会变痛。同时因为腕托偏短，手搭在腕托上的时候，会刻意的往里收着，然后那个弯曲的角度就变得更大了。
+所以我下单了了一个 36cm 搭配标准 87 键键盘的腕托给家里的 84 键键盘用，希望能解决问题吧，等我的腕托到了再发表看法。</description>
     </item>
     
     <item>
